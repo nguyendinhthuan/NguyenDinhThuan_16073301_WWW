@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 align="center">Upload Multi-files</h1>
+	<form action="servletUploadfile" method="post" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<td>File #1:</td>
+				<td><input type="file" name="file1" value="Choose File 1"></td>
+			</tr>
+			<tr>
+				<td>File #2:</td>
+				<td><input type="file" name="file2" value="Choose File 2"></td>
+			</tr>
+			<tr>
+				<td>File #3:</td>
+				<td><input type="file" name="file3" value="Choose File 3"></td>
+			</tr>
+			<tr>
+				<td>File #4:</td>
+				<td><input type="file" name="file4" value="Choose File 4"></td>
+			</tr>
+			<tr>
+				<td>File #5:</td>
+				<td><input type="file" name="file5" value="Choose File 5"></td>
+			</tr>
+		</table>
+		<input type="submit" value="Upload"> 
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
