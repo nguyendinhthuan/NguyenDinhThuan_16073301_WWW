@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="" method="get" name="formDangKy">
+	<form action="servletStudent" method="post" name="formDangKy">
 		<table border="0">
 			<tr>
 				<td>First Name:</td>
@@ -56,7 +56,27 @@
 			</tr>
 			<tr>
 				<td>Hobbies:</td>
-				<td></td>
+				<td>
+					<input type="checkbox" name="hobbies" id="drawing" value="drawing"><label for="drawing">Drawing</label> 
+					<input type="checkbox" name="hobbies" id="singing" value="singing"><label for="singing">Singing</label> 
+					<input type="checkbox" name="hobbies" id="dancing" value="dancing"><label for="dancing">Dancing</label> 
+					<input type="checkbox" name="hobbies" id="sketching" value="sketching"><label for="sketching">Sketching</label> 
+				</td>
+			</tr>
+			<tr>
+				<td>Course applies for:</td>
+				<td>
+					<input type="radio" name="course" id="bca" value="bca"><label for="bca">BCA</label> 
+					<input type="radio" name="course" id="b.com" value="b.com"><label for="b.com">B.Com</label>
+					<input type="radio" name="course" id="b.sc" value="b.sc"><label for="b.sc">B.Sc</label>
+					<input type="radio" name="course" id="b.a" value="b.a"><label for="b.a">B.A</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</td>
 			</tr>
 		</table>
 	</form>
