@@ -62,6 +62,7 @@ public class ServletStudent extends HttpServlet {
 		sv.setEmail(email);
 		sv.setGender(gender);
 		sv.setDay(dateofbirth);
+		sv.setHobbies(hobbies);
 
 		request.setAttribute("student", sv);
 		RequestDispatcher rd = request.getRequestDispatcher("Tuan04_Bai01_ResultFormStudent.jsp");
